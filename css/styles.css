@@ -1,0 +1,178 @@
+body {
+  background-color: hsl(226, 43%, 10%);
+}
+
+h1, h6, p, li {
+  color: #EAF6F6;
+}
+
+hr {
+  width: 80%;
+  border-top-style: dotted;
+  border-right-style: none;
+  border-bottom-style: none;
+  border-left-style: none;
+  border-width: 5px;
+  border-color: #EAF6F6;
+}
+
+.container {
+  padding: 6rem 2rem 0 2rem;
+}
+
+.card:hover{
+  background-color: hsl(236,100%,87%);
+}
+.jer {
+  border: 2px solid hsl(235, 46%, 20%);
+  background-color: hsl(235, 45%, 61%);
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+
+.jeremy {
+background-color: hsl(235, 45%, 61%);
+  height: 10rem;
+}
+
+
+.jeremy-img {
+  background-color: hsl(235, 45%, 61%);
+  height: 120px;
+  padding-top: 3px;
+  padding-left: 7px;
+
+
+}
+.jeremy-image{
+  position: relative;
+  top:10px;
+  left:10px;
+  height:80px;
+}
+
+.card-footer {
+  background-color: hsl(235, 46%, 20%);
+  padding: 16px;
+}
+
+.col-lg-3 {
+  padding-top: 1.50rem;
+}
+
+.row-cols-md-3 .col {
+  padding-top: 1.50rem;
+}
+
+.col-9 {
+  padding-top: 6px;
+}
+
+.h-100 {
+  border-radius: 12px;
+  /* border:2px solid hsl(235,46%,20%); */
+  background-color: hsl(235, 46%, 20%);
+  height: 88%!important;
+}
+.h-100.workout{
+  height: 86%!important;
+}
+.h-100.health{
+  height:87%!important;
+}
+
+.h-100 .card-body {
+  height: 170px;
+  /* border:2px solid hsl(235,46%,20%); */
+  border-radius:12px;
+  /* border-top-left-radius: 12px;
+  border-top-right-radius: 12px; */
+  background-color: hsl(235, 46%, 20%);
+  position: relative;
+  bottom: 28px;
+}
+.h-100 .card-body.four{
+  position:relative;
+  bottom:16px;
+}
+
+
+.card-body:hover {
+  background-color: hsl(235, 45%, 61%);
+}
+
+.img {
+  border-radius: 12px;
+  /* padding-left: 10rem; */
+  height: 70px;
+}
+
+/* img.cardimg {
+  position: absolute;
+  top:-10px;
+} */
+
+.hours {
+  padding-top: 20px;
+}
+
+.work {
+  background-color: hsl(15, 100%, 70%);
+}
+
+.play {
+  background-color: hsl(195, 74%, 62%);
+}
+
+.study {
+  background-color: hsl(348, 100%, 68%);
+}
+
+.exercise {
+  background-color: hsl(145, 58%, 55%);
+}
+
+.social {
+  background-color: hsl(264, 64%, 52%);
+}
+
+.selfcare {
+  background-color: hsl(43, 84%, 65%);
+}
+
+
+/* .one{
+  position:relative;
+  bottom:28px;
+}
+.two{
+  position:relative;
+  bottom:28px;
+}
+.three{
+  position:relative;
+  bottom:28px;
+}
+
+.five{
+  position:relative;
+  bottom:45px;
+}
+.six{
+ position:relative;
+ bottom:28px;
+}
+
+/* */ */
+@media only screen and (max-width:761px){
+  body{
+    background-color: red;
+  }
+  .jeremy {
+    background-color: hsl(235, 45%, 61%);
+    height: 8rem;
+  }
+  .img {
+     padding-left: 10rem;
+  }
+}
